@@ -1,0 +1,24 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- यह आपके वेबसाइट के लोगो जैसा गहरा बैकग्राउंड बनाएगा -->
+  <rect width="100" height="100" rx="15" ry="15" fill="#121212"/>
+  
+  <!-- यह टेक्स्ट को बीच में रखेगा और फ़ॉन्ट स्टाइल देगा -->
+  <!-- हमने यहाँ letter-spacing को -5 किया है ताकि सही स्पेसिंग हो -->
+  <text 
+    x="50%" 
+    y="50%" 
+    dominant-baseline="middle" 
+    text-anchor="middle" 
+    font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" 
+    font-size="55" 
+    font-weight="bold"
+    letter-spacing="-7">
+    
+    <!-- अक्षर "P" को सफ़ेद रंग में दिखाएगा -->
+    <tspan fill="#FFFFFF">P</tspan>
+    
+    <!-- अक्षर "N" को गुलाबी रंग में दिखाएगा -->
+    <tspan fill="#ff007f">N</tspan>
+    
+  </text>
+</svg>

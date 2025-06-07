@@ -1,0 +1,40 @@
+{
+  "headers": [
+    {
+      "source": "/(apple-touch-icon\\.png|favicon\\.ico|favicon\\.svg|favicon-16x16\\.png|favicon-32x32\\.png|site\\.webmanifest)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.+)",
+      "headers": [
+        {
+          "key": "Cache-control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.+)",
+      "headers": [
+        {
+          "key": "Cache-control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.+)",
+      "headers": [
+        {
+          "key": "Cache-control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
